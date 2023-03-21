@@ -7,12 +7,12 @@ console.log(frase)
 
 //B)
 
-const fraseTroca = frase.replace("verde","rosa").replace("azul","laranja")
+const fraseTroca = frase.replace("verde", "rosa").replace("azul", "laranja")
 console.log(fraseTroca)
 
 //C)
 
-console.log(fraseTroca.includes("verde","laranja"))
+console.log(fraseTroca.includes("verde", "laranja"))
 
 //Extra 
 
@@ -21,6 +21,4 @@ const fraseCasa = 'Jorge tem uma casa verde e com portão azul, com os dizeres: 
 const fraseGato = 'mas não deixe o gato sair"'
 
 const novaCasa = fraseCasa + fraseGato.toUpperCase()
-console.log (novaCasa.replace("verde","rosa").replace("azul","laranja"))
-
-
+console.log(novaCasa.replace("verde", "rosa").replace("azul", "laranja"))
